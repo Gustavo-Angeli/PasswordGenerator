@@ -1,50 +1,121 @@
-# Arquivos de compilação
-*.class
+# Android Studio
+/.idea
+/.gradle
+/local.properties
+/.cxx
 
-# Arquivos de build do Maven
-target/
-.mvn/wrapper/
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-# Arquivos de build do Gradle
+# Gradle
 build/
-out/
+captures/
+externalNativeBuild/
 
-# Arquivos de configuração do Eclipse
-.settings/
-
-# Arquivos de configuração do IntelliJ IDEA
-out/
-.idea/
-*.iml
-*.iws
-*.ipr
-
-# Arquivos de configuração do Visual Studio Code
-.vscode/
-
-# Arquivos de sistema
+# Comportamento do sistema operacional
 .DS_Store
 Thumbs.db
 
-# Logs e relatórios
+# Binários
+*.apk
+*.ap_
+*.class
+*.dex
+*.jar
+*.aar
+*.war
+*.so
+
+# Configurações do Gradle Wrapper
+gradle-wrapper.properties
+gradle-wrapper.jar
+
+# Arquivos gerados
+*.iml
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/caches/
+.idea/libraries/
+build/
+captures/
+navigation-editor-*.xml
+**/build/
+
+# Arquivos de log e erros
 *.log
-*.txt
-*.xml
-*.html
-
-# Diretórios específicos
-/bin/
-/build/
-/dist/
-/node_modules/
-/vendor/
-
-# Arquivos temporários
-*.tmp
-*.bak
+*.pot
+*.pro
+*.orig
+*.patch
+*.rej
 *.swp
+*.swo
+*.swn
 
-# Outros
-secret.properties
+# Documentação gerada
+*.javadoc/
+*.docset/
+
+# Arquivos de configuração Android
+local.properties
+
+# Diretório de saída
+/out/
+
+# Arquivos de teste de instrumentação
+app/*/testInstrumentationTestRunner.txt
+
+# Diretórios de construção do Eclipse
+.classpath
+.project
+
+# Diretórios do Android Studio
+.idea/caches/
+.idea/libraries/
+.idea/modules/
+.idea/workspaces/
+
+# Diretório de saída do Android Studio
+*.iml
+out/
+
+# Diretórios de construção do IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Diretórios do Gradle
+.gradle/
+build/
+
+# Diretórios do Windows
+Thumbs.db
+Desktop.ini
+
+# Diretórios do Mac
+.DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.idws
+.idea/
+
+# Android
+build/
+local.properties
+*.apk
+*.ap_
+*.dex
+*.class
+*.pro
+*.sln
+*.suo
+*.swp
+*.swn
+*.user
+*.lock
+*.orig
+
